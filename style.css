@@ -1,0 +1,64 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    max-width: 50%;
+    margin: auto;
+    color:#333;
+
+}
+.header{
+    display: flex;
+    align-items: center;
+}
+.face{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+.title{
+    flex: 1;
+}
+.name{
+    color: grey;
+}
+.coral{
+    color: coral;
+}
+.qualification{
+    letter-spacing: 1px;
+}
+.hrline{
+    border: 1px solid coral;
+
+}
+.table-heading{
+    min-width:300px;
+    display: block;
+    
+}
+.table-prop{
+    font-size: 20px;
+    color: coral;
+}
+.marginfix{
+    margin-top: 20px;
+}
+.jobheading{
+    font-size: 20px;
+    line-height: 25px;
+    margin-top: 15px;
+
+}
+.jobduration{
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 25px;
+}
+.jobdiscription{
+    font-size: 18px;
+    
+}
+.jobdiscription{
+    margin-top: 20px;
+}
